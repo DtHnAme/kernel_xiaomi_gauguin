@@ -130,14 +130,16 @@ x509.genkey
 # Kconfig presets
 all.config
 
+# out-kernel-files
+out
+
+# build-kernel-tools
+phone_build.sh
+server_build.sh
+
 # Kdevelop4
 *.kdev4
 
 # fetched Android config fragments
 kernel/configs/android-*.cfg
 
-# vendor device tree directories
-arch/arm64/boot/dts/vendor/
-
-# Tech package directories
-#techpack/
