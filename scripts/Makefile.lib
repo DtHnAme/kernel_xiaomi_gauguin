@@ -267,6 +267,9 @@ endif
 
 DTC_FLAGS += $(DTC_FLAGS_$(basetarget))
 
+# Disable noisy warnings generated during dtc compilation
+DTC_FLAGS += -Wno-avoid_default_addr_size -Wno-reg_format -Wno-unit_address_format
+
 # Generate an assembly file to wrap the output of the device tree compiler
 quiet_cmd_dt_S_dtb= DTB     $@
 cmd_dt_S_dtb=						\
