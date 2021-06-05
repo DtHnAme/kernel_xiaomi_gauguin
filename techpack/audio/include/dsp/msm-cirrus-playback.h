@@ -11,14 +11,12 @@
  */
 #ifndef MSM_CIRRUS_PLAYBACK_H
 #define MSM_CIRRUS_PLAYBACK_H
-#define DEBUG
 #include <linux/slab.h>
 #include <sound/soc.h>
 #include <dsp/apr_audio-v2.h>
 #include <dsp/q6afe-v2.h>
 #include <dsp/q6audio-v2.h>
 #include <uapi/sound/msm-cirrus-playback.h>
-
 
 #define MIN_CHAN_SWAP_SAMPLES	48
 #define MAX_CHAN_SWAP_SAMPLES	9600
