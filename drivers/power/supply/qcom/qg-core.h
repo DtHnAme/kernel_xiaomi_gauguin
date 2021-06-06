@@ -176,7 +176,8 @@ struct qpnp_qg {
 	int			max_fcc_limit_ma;
 	int			bsoc_bass_entry;
 	int			qg_v_ibat;
-        int                     fake_temp;
+    int         fake_temp;
+	int			qg_charge_counter;
 	u32			fifo_done_count;
 	u32			wa_flags;
 	u32			seq_no;
