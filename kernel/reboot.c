@@ -565,7 +565,7 @@ static int __init reboot_setup(char *str)
 			} else
 				*mode = REBOOT_SOFT;
 			break;
-		}
+
 		case 'g':
 			*mode = REBOOT_GPIO;
 			break;
