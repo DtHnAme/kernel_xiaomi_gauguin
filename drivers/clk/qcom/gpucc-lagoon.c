@@ -541,6 +541,7 @@ static struct platform_driver gpu_cc_lagoon_driver = {
 	.driver = {
 		.name = "lagoon-gpucc",
 		.of_match_table = gpu_cc_lagoon_match_table,
+		.probe_type = PROBE_FORCE_SYNCHRONOUS,
 	},
 };
 
