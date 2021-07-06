@@ -2756,6 +2756,7 @@ static struct platform_driver gcc_lagoon_driver = {
 	.driver = {
 		.name = "gcc-lagoon",
 		.of_match_table = gcc_lagoon_match_table,
+		.probe_type = PROBE_FORCE_SYNCHRONOUS,
 	},
 };
 
