@@ -387,6 +387,7 @@ static struct platform_driver video_cc_lagoon_driver = {
 	.driver = {
 		.name = "video_cc-lagoon",
 		.of_match_table = video_cc_lagoon_match_table,
+		.probe_type = PROBE_FORCE_SYNCHRONOUS,
 	},
 };
 
